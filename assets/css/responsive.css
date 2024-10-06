@@ -1,0 +1,206 @@
+/* --------------------------Responsive------------------ */
+/* ----------------------------------------------------------max-width: 576px--------------------------------------------- */
+@media (max-width: 576px) {
+
+   /* -----------------------titel in all ssection-------------- */
+   .titel {
+      font-size: 1.5rem;
+   }
+
+   .sub_titel {
+      font-size: 1rem;
+   }
+
+   /* ----------------------------sclik slider bottom ---------------- */
+   .course_card_section .card1 .empolyee ul li {
+      font-size: 80%;
+      padding-right: 20px;
+   }
+
+   .course_card_section .card1 .empolyee ul h5 {
+      font-size: 80%;
+   }
+
+   /* ------------------------Register Now section ---------------------- */
+   .register_form_section {
+      padding: 30px;
+   }
+
+   .register_form_section .main-row {
+      margin-bottom: ;
+   }
+
+   .register_form_section .card {
+      font-size: 14px;
+      height: auto;
+   }
+
+   .register_form_section .card .card-body {
+      padding: 0;
+      margin-bottom: 10px;
+   }
+
+   .register_form_section .main-row .table {
+      margin-top: 10px;
+   }
+
+   /* ---------------------------------------upcoming-event section ----------------------------------*/
+   .upcoming_section .evant_containt .evant-times .col-2 p::after{
+     display: none;
+  }
+
+  /* --------------------------------footer section ---------------------- */
+  
+.footer_section li{
+   line-height: 20px;
+}
+.footer_section{
+   padding: 30px;
+}
+}
+
+/* ------------------------------------------(max-width: 576px) and (min-width: 767px)------------------------------------------- */
+@media (min-width:576px) and (max-width: 767px) {
+
+   /* -----------------------titel in all ssection-------------- */
+   .titel {
+      font-size: 2rem;
+
+   }
+
+   .sub_titel {
+      font-size: 1rem;
+   }
+
+   /* ----------------------------sclik slider bottom ---------------- */
+   .course_card_section .card1 .empolyee ul li {
+      font-size: 60%;
+      padding-right: 20px;
+   }
+
+   .course_card_section .card1 .empolyee ul h5 {
+      font-size: 60%;
+   }
+
+   /* ------------------------Register Now section ---------------------- */
+
+   .register_form_section {
+      padding: 30px;
+   }
+
+   .register_form_section .main-row {
+      margin-bottom: ;
+   }
+
+   .register_form_section .card {
+      font-size: 16px;
+      height: auto;
+   }
+
+   .register_form_section .card .card-body {
+      padding: 0;
+      margin-bottom: 10px;
+   }
+
+   .register_form_section .main-row .table {
+      margin-top: 10px;
+   }
+
+
+    /* --------------------------------footer section ---------------------- */
+  
+.footer_section li{
+   line-height: 20px;
+}
+
+
+}
+
+/* ------------------------------------------(max-width: 768px) and (min-width: 991px)------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 991px) {
+   /* ----------------------------sclik slider bottom ---------------- */
+
+   .course_card_section .card1 .empolyee ul li {
+      font-size: 50%;
+      padding-right: 10px;
+   }
+
+   .course_card_section .card1 .empolyee ul h5 {
+      font-size: 50%;
+   }
+
+   /* ------------------------Register Now section ---------------------- */
+   .register_form_section {
+      padding: 10px;
+   }
+
+   .register_form_section .card {
+      font-size: 11px;
+      gap: 10px;
+      height: auto;
+      padding: 0;
+      line-height: 55px;
+      /* width: 100%; */
+      
+   }
+   .register_form_section .main-row .table{
+      width: 300px;
+   }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+   /* ------------------------Register Now section ---------------------- */
+   .register_form_section {
+      padding: 20px;
+   }
+
+   .register_form_section .card {
+      font-size: 16px;
+      gap: 10px;
+      height: auto;
+      padding: 0;
+      line-height: 55px;
+      /* width: 100%; */
+      
+   }
+   .register_form_section .main-row .table{
+      width: 300px;
+   }
+/* -----------------------------------------upcoming-event section ---------------------------------- */
+   .upcoming_section .evant-times{
+      padding: 5px 5px;
+    
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {}
+
+@media {
+   min-width: 1400px;
+}
+
+   {}
+
+@media (min-width: 1800px) {
+
+   /* ----------------------------sclik slider bottom ---------------- */
+
+   .course_card_section .card1 .empolyee ul {
+      justify-content: space-around;
+   }
+
+   .course_card_section .card1 .empolyee ul li {
+      font-size: 40%;
+      /* padding-right: 10px; */
+      padding-left: 10px;
+
+   }
+
+   .course_card_section .card1 .empolyee ul h5 {
+      font-size: 4cqi;
+   }
+}
+}
